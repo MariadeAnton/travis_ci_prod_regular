@@ -1,8 +1,9 @@
 sudo: required
-services:
-  - docker
-language: python
 
-before_install:
-  - sudo apt-get update
-  - sudo apt-get install libcmph-dev
+language: python
+python:
+  - "2.7"
+  
+script:
+  - date
+  - echo hola
